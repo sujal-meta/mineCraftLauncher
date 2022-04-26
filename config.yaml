@@ -1,0 +1,6 @@
+directory: C:\Users\sujal\AppData\Roaming\.minecraft
+version: 1.18.2
+jvmArgs: []
+memory:
+  min: 1G
+  max: 2G

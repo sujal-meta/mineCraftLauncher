@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@xmcl/installer": "^4.2.0",
+    "@xmcl/user": "^2.1.7",
+    "arg": "^5.0.1",
+    "minecraft-java-core": "^1.3.6",
+    "minecraft-launcher-core": "^3.16.8",
+    "msmc": "^2.2.3",
+    "prompt-sync": "^4.2.0",
+    "yaml": "^1.10.2"
+  },
+  "name": "kwiklaunch",
+  "version": "1.0.0",
+  "description": "Quickly launch Minecraft from command line.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "TheKodeToad",
+  "license": "MIT"
+}
