@@ -82,8 +82,9 @@ function launch() {
       number: config.version,
       type: "release"
     },
+    forge: 'C:/Users/sujal/AppData/Roaming/.minecraft/versions/1.12.2-forge-14.23.5.2859/forge-1.12.2-14.23.5.2860-installer.jar',
     server: {
-      host: 'buildtheearth.net'
+      host: '0'
     },
     memory: config.memory,
     java: true,
@@ -92,4 +93,6 @@ function launch() {
   };
 
   launcher.launch(opts);
+  launcher.on('debug', (e) => console.log(e));
+  launcher.on('data', (e) => console.log(e));
 }
